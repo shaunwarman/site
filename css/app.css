@@ -1,0 +1,27 @@
+html,body { 
+  margin:0;
+}
+
+canvas {
+	display:block;
+}
+
+#wrapper {
+	vertical-align: middle;
+}
+
+#particles-js {
+  height: 100vh;
+  background:#000000
+}
+
+#profile {
+	margin: 20px;
+}
+
+.profile-pic {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
