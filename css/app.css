@@ -6,20 +6,6 @@ html,body {
 canvas {
 	display:block;
 }
-	
-#header {
-
-}
-
-#skills-section {
-	height: 50vh;
-	padding: 20px auto;
-}
-
-#particles-js {
-	height: 50vh;
-  	background:#000000
-}
 
 #profile {
 	margin: 20px;
@@ -29,6 +15,27 @@ canvas {
 	text-align: center;
 	color: #ffffff;
 	font-size: 16px;
+}
+
+#skills-section {
+	min-height: 50vh;
+	height: auto;
+	padding: 20px auto;
+	position: absolute;
+}
+
+#contact-section {
+	min-height: 50vh;
+	margin: 20px;
+	width: 100%;
+	background: #000000;
+	font-size: 16px;
+	position: absolute;
+}
+
+#particles-js {
+	height: 50vh;
+  	background:#000000
 }
 
 .profile-pic {
@@ -41,6 +48,7 @@ canvas {
 .skills-title {
 	padding: 20px;
 	text-align: center;
+	height: 40px;
 }
 
 .skills-list {
