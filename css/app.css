@@ -28,6 +28,7 @@ canvas {
 	width: 100%;
 	text-align: center;
 	color: #ffffff;
+	font-size: 16px;
 }
 
 .profile-pic {
@@ -51,6 +52,11 @@ canvas {
 .skill {
 	float: left;
 	margin: 10px 20px;
+}
+
+.skill .label {
+	display: block;
+	text-align: center;
 }
 
 span {
